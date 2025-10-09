@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Link na Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-section">
+            <h1>Crie seu Link na Bio</h1>
+            <p>Preencha os campos abaixo para gerar um preview.</p>
+            <form id="bioForm">
+                <div class="form-group">
+                    <label for="name">Seu Nome ou Marca:</label>
+                    <input type="text" id="name" placeholder="Ex: Junior Almeida" required>
+                </div>
+                <div class="form-group">
+                    <label for="photoUrl">URL da sua Foto:</label>
+                    <input type="url" id="photoUrl" placeholder="https://exemplo.com/foto.jpg" required>
+                </div>
+                <div class="form-group">
+                    <label>Link 1</label>
+                    <div class="link-input-group">
+                        <input type="text" id="link1Title" placeholder="Título do Link 1" required>
+                        <input type="url" id="link1Url" placeholder="https://..." required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Link 2</label>
+                    <div class="link-input-group">
+                        <input type="text" id="link2Title" placeholder="Título do Link 2" required>
+                        <input type="url" id="link2Url" placeholder="https://..." required>
+                    </div>
+                </div>
+                <button type="submit">Gerar Preview</button>
+            </form>
+        </div>
+
+        <div class="preview-section">
+            <h2>Preview</h2>
+            <div class="preview-device">
+                <div id="previewContent">
+                    <p class="placeholder">👆 Preencha o formulário ao lado</p>
+                    <p class="placeholder">para ver o preview da sua página</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
