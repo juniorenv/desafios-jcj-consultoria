@@ -4,16 +4,16 @@ Repositório contendo soluções para desafios técnicos propostos pela JCJ Cons
 
 ## 📋 Índice
 
-- [Desafio 01 - Processamento de Pedidos com Regex](#desafio-01---processamento-de-pedidos-com-regex)
-- [Desafio 02 - Gerador de Link na Bio](#desafio-02---gerador-de-link-na-bio)
-- [Desafio 03 - API REST de Tarefas](#desafio-03---api-rest-de-tarefas)
-- [Desafio 04 - Organizador de Arquivos](#desafio-04---organizador-de-arquivos)
-- [Desafio 05 - Consulta de CEP](#desafio-05---consulta-de-cep)
-- [Desafio 06 - Análise de Dados de Usuários](#desafio-06---análise-de-dados-de-usuários)
+- [Desafio 01 - Processamento de Pedidos com Regex](#desafio-01)
+- [Desafio 02 - Gerador de Link na Bio](#desafio-02)
+- [Desafio 03 - API REST de Tarefas](#desafio-03)
+- [Desafio 04 - Organizador de Arquivos](#desafio-04)
+- [Desafio 05 - Consulta de CEP](#desafio-05)
+- [Desafio 06 - Análise de Dados de Usuários](#desafio-06)
 
 ---
 
-## 🎯 Desafio 01 - Processamento de Pedidos com Regex
+<h2 id="desafio-01">🎯 Desafio 01 - Processamento de Pedidos com Regex</h2>
 
 ### 📝 Descrição
 
@@ -75,7 +75,7 @@ Pagamento: Cartão de Crédito
 
 ---
 
-## 🔗 Desafio 02 - Gerador de Link na Bio
+<h2 id="desafio-02">🔗 Desafio 02 - Gerador de Link na Bio</h2>
 
 ### 📝 Descrição
 
@@ -110,7 +110,7 @@ cd desafio-02
 
 ---
 
-## 🔌 Desafio 03 - API REST de Tarefas
+<h2 id="desafio-03">🔌 Desafio 03 - API REST de Tarefas</h2>
 
 ### 📝 Descrição
 
@@ -173,7 +173,7 @@ curl -X POST http://localhost:3000/api/tasks \
 
 ---
 
-## 📁 Desafio 04 - Organizador de Arquivos
+<h2 id="desafio-04">📁 Desafio 04 - Organizador de Arquivos</h2>
 
 ### 📝 Descrição
 
@@ -225,7 +225,7 @@ Escolha uma opção:
 
 ---
 
-## 📮 Desafio 05 - Consulta de CEP
+<h2 id="desafio-05">📮 Desafio 05 - Consulta de CEP</h2>
 
 ### 📝 Descrição
 
@@ -281,7 +281,7 @@ Digite o CEP: 41343-265
 
 ---
 
-## 📊 Desafio 06 - Análise de Dados de Usuários
+<h2 id="desafio-06">📊 Desafio 06 - Análise de Dados de Usuários</h2>
 
 ### 📝 Descrição
 
